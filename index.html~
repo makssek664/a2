@@ -6,6 +6,8 @@
 			function update() {
 				document.getElementById("a").src="https://picsum.dev/600/400"
 			}
+
+			var s = setInterval(update, 5000);
 		</script>
 		<img id="a">
 	</div>
