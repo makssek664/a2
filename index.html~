@@ -2,6 +2,11 @@
 </header>
 <body>
 	<div>
-		<img src="https://placehold.co/600x400">
+		<script>
+			function update() {
+				document.getElementById("a").src="https://picsum.dev/600/400"
+			}
+		</script>
+		<img id="a">
 	</div>
 </body>
